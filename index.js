@@ -36,9 +36,9 @@ return(
     <React.Fragment>
         <h1> Vote no seu preferido!</h1>
         <h2></h2>
-        <Contador titulo= "react"/>
-        <Contador titulo= "angular"/>
-        <Contador titulo= "vueJS"/>
+        <Contador titulo= "xbox"/>
+        <Contador titulo= "pc"/>
+        <Contador titulo="playstation"/>
     </React.Fragment>
 );
 
