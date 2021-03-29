@@ -1,7 +1,9 @@
 var container = document.getElementById("app")
+
 //var titulo = document.createElement("h1")
 //titulo.innerHTML = "Titulo inserido por JS"
 //container.appendChild(titulo)
+//import teste from 'https://compass-ssl.xbox.com/assets/f0/85/f085c120-d3d5-4424-8b70-eb25deaa326e.png?n=XBX_A-BuyBoxBGImage01-D.png';
 
 function Contador(props){
 
@@ -46,15 +48,7 @@ return(
 }
 
 
-//function App(props){
-  //  return(
-       // <React.Fragment>
-          //   <h1> {props.titulo}</h1>
-           //  <h2> e eu sou um paragrafo</h2>
-       // </React.Fragment>
-    //);
 
-//}
+
 
 ReactDOM.render(React.createElement(App,null,null), container);
-//ReactDOM.render(App(), container);
