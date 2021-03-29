@@ -1,0 +1,27 @@
+export default createGlobalStyle
+ * {
+     margin: 0;
+          padding: 0;
+     outline: 0;
+   box-sizing: border-box;
+   } 
+   body {
+     font-family: Arial, Helvetica, sans-serif;
+          font-size: 14px;
+        
+     background-image:url('https://sm.ign.com/ign_br/screenshot/default/console_b8u4.jpg');
+     text-rendering: optimizeLegibility;
+     -webkit-font-smoothing: antialiased;
+     background-repeat: no-repeat;
+     background-position: 80%;
+     background-color: blueviolet;
+   }
+ 
+   html, body, #root {
+     height: 100%;
+   }
+ 
+   .h1{
+    color: chartreuse;
+
+   }
