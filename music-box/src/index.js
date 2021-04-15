@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 import './assets/css/reset.css';
 import './assets/css/style.css';
-import MinhasMusicas from './pages/MinhasMusicas';
+
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-   <MinhasMusicas/>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
